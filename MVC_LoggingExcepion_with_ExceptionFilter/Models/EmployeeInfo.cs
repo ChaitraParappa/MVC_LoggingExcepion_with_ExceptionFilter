@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+
+namespace MVC_LoggingExcepion_with_ExceptionFilter.Models
+{
+	public class EmployeeInfo
+	{
+		[Key]
+		public int EmpNo { get; set; }
+		public string EmpName { get; set; }
+		public string Designation { get; set; }
+		public decimal Salary { get; set; }
+	}
+}
