@@ -39,6 +39,8 @@ namespace MVC_LoggingExcepion_with_ExceptionFilter.Controllers
 			}
 			else
 			{
+
+				string file;
 				ctx.Employees.Add(Emp);
 				ctx.SaveChanges();
 
